@@ -1,0 +1,124 @@
+
+form.login h1, form.register h1{
+    text-align: center;
+}
+
+
+form.login, form.register{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, input.form-control{
+    display: block;
+    margin-bottom: 5px;
+    width: 200px;
+    padding: 5px 7px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.show_password_checkbox input{
+    display: inline-block
+}
+
+
+.mainContainer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 64px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultContainer, .historyItem {
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.historyContainer {
+    flex-direction: column;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-grow: 5;
+    justify-content: flex-start;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.inputContainer > .errorLabel {
+    color: red;
+    font-size: 12px;
+}
+
+.inputBox {
+    height: 48px;
+    width: 400px;
+    font-size: large;
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding-left: 8px;
+}
+
+
+input[type="button"] {
+    border: none;
+    background: #065001;
+    color: white;
+    padding: 12px 24px;
+    margin: 8px;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.checkbox-show-password{
+    position: relative;
+    display: block;
+}
+
+.checkbox-show-password_label{
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+}
+.checkbox-show-password_checkbox{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .inputBox{
+        width: 100%;
+    }
+}

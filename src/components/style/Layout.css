@@ -1,0 +1,13 @@
+.outlet-content {
+    max-width: 1280px;
+    min-height:900px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .outlet-content{
+        width: 90%;
+    }
+}

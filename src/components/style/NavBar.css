@@ -1,0 +1,98 @@
+.right-navbar{
+    float: right;
+}
+
+.left-navbar{
+    float: left;
+}
+
+
+
+a.logo:link, a.logo:visited {
+    color: #034101;
+    margin: 10px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    /*width: 100%;*/
+    font-weight: bold;
+}
+
+
+a.logo:hover, a.logo:active {
+    background-color: #b2f1bd;
+}
+
+
+
+a.navbar-element-link:link, a.navbar-element-link:visited {
+    background-color: #039233;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    width: 100%;
+    font-weight: bold;
+}
+
+a.navbar-element-link:hover, a.navbar-element-link:active {
+    background-color: #012106;
+}
+
+.navbar-element {
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/*default hide hamburger button*/
+.mobile-toggler {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-toggler {
+        display: block;
+        /*style your hamburger button*/
+    }
+
+    .left-navbar-hidden {
+        /*this will hide menu for small screen*/
+        /*you can use display:none/block as you desired*/
+        visibility: hidden;
+
+        /*these are optional you can add your style here*/
+        width: 280px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -15px;
+        padding: 20px;
+        background-color: #fff;
+        color: #000;
+        transition: 600ms ease;
+    }
+
+    /*This will handle show/hide after you toggle your hamburger button*/
+    .left-navbar-hidden.show-mobile-menu {
+        visibility: visible;
+        left: 0;
+    }
+    a.navbar-element-link:link, a.navbar-element-link:visited {
+        margin: 0px;
+        padding: 10px;
+        border-radius: 4px;
+
+    }
+
+
+    button{
+        margin: 0px;
+        padding: 2px;
+        border-radius: 4px;
+    }
+
+}

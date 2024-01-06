@@ -1,0 +1,94 @@
+.left-navbar {
+    background: #e2e1e1;
+    /* min-height: 800px; */
+    height: 100%;
+    width: 200px;
+    /* top: 66px; */
+    padding: 10px;
+
+    position: fixed;
+
+    /* left: 0; */
+    transition: 0.5s;
+
+}
+
+
+a.logo:link, a.logo:visited {
+    /*background-color: #034101;*/
+    /*background: #cbcbcb;*/
+    color: #034101;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    width: 100%;
+    font-weight: bold;
+}
+
+a.logo:hover, a.logo:active {
+    background-color: #b2f1bd;
+}
+
+
+a.left-navbar-element-link:link, a.left-navbar-element-link:visited {
+    background-color: #039233;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    width: 100%;
+    font-weight: bold;
+}
+
+a.left-navbar-element-link:hover, a.left-navbar-element-link:active {
+    background-color: #012106;
+}
+
+
+.left-navbar-element {
+    padding: 10px;
+}
+
+/*default hide hamburger button*/
+.mobile-toggler {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-toggler {
+        display: block;
+        /*style your hamburger button*/
+    }
+    .left-navbar {
+
+        width: 40px;
+    }
+
+
+    .left-navbar-hidden {
+        /*this will hide menu for small screen*/
+        /*you can use display:none/block as you desired*/
+        visibility: hidden;
+
+        /*these are optional you can add your style here*/
+        width: 280px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -15px;
+        padding: 20px;
+        background-color: #fff;
+        color: #000;
+        transition: 400ms ease;
+    }
+
+    /*This will handle show/hide after you toggle your hamburger button*/
+    .left-navbar-hidden.show-mobile-menu {
+        visibility: visible;
+        left: 0;
+    }
+}

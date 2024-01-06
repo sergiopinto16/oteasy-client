@@ -1,0 +1,22 @@
+
+label {
+    /* Other styling... */
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+    width: 200px;
+    text-align: left;
+}   
+
+
+input{
+    width: 200px;
+}
+
+
+.input{
+    padding-top: 10px;
+    padding-bottom: 10 px;
+    height: 60px;
+}

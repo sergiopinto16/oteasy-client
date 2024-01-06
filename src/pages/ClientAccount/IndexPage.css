@@ -1,0 +1,29 @@
+.clients{
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 50px
+}
+
+
+.clients_table{
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 50px;
+
+    /*background-color: rgba(241, 241, 241, 0.2);*/
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #0d9604, #065001);
+    font-family: Georgia, serif;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+button {
+    border-radius: 16px
+}

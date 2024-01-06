@@ -1,0 +1,84 @@
+.div_data{
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 50px;
+
+    background-color: rgba(241, 241, 241, 0.2);
+}
+
+.client_info{
+    margin-top: 10px;
+}
+.client_info_data{
+    padding-top: 20px;
+}
+.client_reports{
+}
+.client_spms{
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #0d9604, #065001);
+    font-family: Georgia, serif;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.client_spms button{
+    margin: 4px;
+}
+
+
+button {
+    border-radius: 16px
+}
+
+
+.btn_spm_casa{
+    background-color: green;
+}
+
+.btn_spm_casa:hover{
+    background-color: #004b00;
+    font-weight: 900;
+}
+
+
+.btn_spm_escola{
+    background-color: orange;
+}
+
+.btn_spm_escola:hover{
+    background-color: #815901;
+    font-weight: 900;
+
+}
+
+
+.btn_spm_p_casa{
+    background-color: blue;
+}
+
+.btn_spm_p_casa:hover{
+    background-color: #000088;
+    font-weight: 900;
+}
+
+
+.btn_spm_p_escola{
+    background-color: red;
+}
+
+
+.btn_spm_p_escola:hover{
+    background-color: #830000;
+    font-weight: 900;
+}
+
+
+.div_url{
+    padding-top: 20px;
+}

@@ -1,0 +1,48 @@
+
+label {
+    /* Other styling... */
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+    width: 200px;
+    text-align: left;
+}   
+
+
+/*input{*/
+/*    width: 200px;*/
+/*}*/
+
+
+input{
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60px;
+}
+
+.div_input {
+    padding-top: 10px;
+    width: 400px;
+}
+
+.span_input_name{
+    display: inline-block;
+    width: 100px;
+}
+
+.PhoneInputCountrySelect{
+    width:  100px;
+}
+
+.span_input_value{
+    display: inline-block;
+    width: 300px;
+}
+
+
+.div_button {
+    padding: 10px;
+    padding-top: 40px;
+}

@@ -1,0 +1,17 @@
+
+.header-content {
+    height: 90px;
+    border-radius: 8px;
+    margin: 10px;
+    padding-bottom: 0px;
+    background: #cdcdcd;
+ }
+
+
+.header-nav {
+    padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+}
