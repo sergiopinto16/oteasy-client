@@ -13,7 +13,7 @@ import {SelectColumnFilter} from "../../utils/filter";
 import './ClientInfo.css'
 import moment from 'moment'
 
-const api_host = config.api.host
+const api_host = process.env.REACT_APP_API_HOST
 //' + api_host + ':' + api_port + '
 
 // TODO: how to get user id

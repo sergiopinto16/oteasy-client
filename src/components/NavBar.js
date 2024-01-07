@@ -1,8 +1,7 @@
-import {Link} from "react-router-dom";
 import {useContext, useEffect, useState} from "react";
 import {UserContext} from "../UserContext";
 import './style/NavBar.css'
-import {Navigate} from "react-router-dom";
+import {Link, Navigate} from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.css';
 import Dropdown from 'react-bootstrap/Dropdown';
@@ -11,7 +10,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import config from './../config/config.json';
 // const config = require('config');
 
-const api_host = config.api.host
+const api_host = process.env.REACT_APP_API_HOST
 //' + api_host + ':' + api_port + '
 
 

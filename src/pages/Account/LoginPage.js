@@ -1,13 +1,11 @@
-import {useContext, useState} from "react";
+import {useState} from "react";
 import {Navigate, useNavigate} from "react-router-dom";
-import {UserContext} from "../../UserContext";
 import './style.css';
-import {TextField, Button} from "@material-ui/core";
 
 
 import config from './../../config/config.json';
 
-const api_host = config.api.host
+const api_host = process.env.REACT_APP_API_HOST
 //' + api_host + ':' + api_port + '
 
 

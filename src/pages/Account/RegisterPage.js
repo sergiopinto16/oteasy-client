@@ -4,9 +4,8 @@ import './style.css'
 import config from './../../config/config.json';
 import PasswordAndConfirmPasswordValidation
     from "./password-and-confirm-passsord-validation/PasswordAndConfirmPasswordValidation"
-import {Navigate} from "react-router-dom";
 
-const api_host = config.api.host
+const api_host = process.env.REACT_APP_API_HOST
 //' + api_host + ':' + api_port + '
 
 
@@ -42,7 +41,7 @@ export default function RegisterPage() {
                 body: JSON.stringify({name, email, password}),
                 headers: {'Content-Type': 'application/json'},
             }).then(response => {
-                if (response.status == 200) {
+                if (response.status === 200) {
                     return response.json();
                 }
                 throw new Error(response.response)

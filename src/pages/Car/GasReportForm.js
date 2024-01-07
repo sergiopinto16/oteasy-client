@@ -1,15 +1,14 @@
-import ReactQuill from "react-quill";
 import 'react-quill/dist/quill.snow.css';
 import './GasReportForm.css'
 import { Navigate } from "react-router-dom";
 
 
-import { useContext, useEffect, useState, useRef } from "react";
+import { useContext, useState } from "react";
 import { UserContext } from "../../UserContext";
 
 import config from './../../config/config.json';
 
-const api_host = config.api.host
+const api_host = process.env.REACT_APP_API_HOST
 //' + api_host + ':' + api_port + '
 
 

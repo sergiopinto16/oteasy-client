@@ -1,7 +1,6 @@
 import {useState} from "react";
 import PasswordInputField from "./PasswordInputField";
 import ConfirmPasswordInputField from "./ConfirmPasswordInputField";
-import Checkbox from "./Checkbox";
 import '../style.css'
 
 function PasswordAndConfirmPasswordValidation({callbackPasswordFunction}) {

@@ -9,7 +9,7 @@ import './style/LeftNavBar.css'
 import config from './../config/config.json';
 // const config = require('config');
 
-const api_host = config.api.host
+const api_host = process.env.REACT_APP_API_HOST
 
 const spm_credentials = 0
 const gas_report_credentials = 1

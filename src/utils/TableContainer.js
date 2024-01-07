@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 
 import {useTable, useSortBy, useFilters, useExpanded, usePagination} from 'react-table';
-import {Table, Row, Col, Button, Input, CustomInput} from 'reactstrap';
+import {Table, Row, Col, Button, Input} from 'reactstrap';
 
 import {Filter, DefaultColumnFilter} from './filter';
 import './TableContainer.css'
@@ -130,7 +130,7 @@ const TableContainer = ({columns, data,renderRowSubComponent}) => {
                     />
                 </Col>
                 <Col md={2}>
-                    <CustomInput
+                    <Input
                         type='select'
                         value={pageSize}
                         onChange={onChangeInSelect}
@@ -141,7 +141,7 @@ const TableContainer = ({columns, data,renderRowSubComponent}) => {
                                 Show {pageSize}
                             </option>
                         ))}
-                    </CustomInput>
+                    </Input>
                 </Col>
                 <Col md={3}>
                     <Button color='success' onClick={nextPage} disabled={!canNextPage}>

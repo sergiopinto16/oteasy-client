@@ -10,6 +10,10 @@ COPY package.json .
 # Layer 4: Installing the dependencies listed in the package.json file.
 RUN npm install
 
+ARG REACT_APP_API_HOST
+
+ENV REACT_APP_API_HOST $REACT_APP_API_HOST
+
 # Layer 5: Copying all the files from the root of the project to the `app` directory in the container.
 COPY . .
 

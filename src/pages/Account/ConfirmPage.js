@@ -1,10 +1,9 @@
-import React, { useEffect, Component } from 'react'
+import React, { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { notify } from 'react-notify-toast'
 import Spinner from './../Spinner'
 
 import config from '../../config/config.json';
-const api_host = config.api.host
+const api_host = process.env.REACT_APP_API_HOST
 
 
 
@@ -57,8 +56,9 @@ export default function ConfirmPage() {
       })
       .then(data => {
         this.setState({ confirming: false })
-        notify.show(data.msg)
-        notify.show("User confirmed")
+          // TODO: change to notification
+          console.log(data.msg)
+          console.log("User confirmed")
       })
       .catch(err => console.log(err))
   }, []);

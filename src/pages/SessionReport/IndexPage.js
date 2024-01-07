@@ -4,10 +4,7 @@ import {useEffect, useState} from "react";
 
 import config  from './../../config/config.json';
 
-const api_host = config.api.host
-const api_port = config.api.port
-//' + api_host + ':' + api_port + '
-
+const api_host = process.env.REACT_APP_API_HOST
 
 
 export default function IndexPage() {

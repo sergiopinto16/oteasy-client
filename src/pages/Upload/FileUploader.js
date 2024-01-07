@@ -3,7 +3,7 @@ import config from "../../config/config.json";
 import axios from 'axios';
 import {useParams} from "react-router-dom";
 
-const api_host = config.api.host;
+const api_host = process.env.REACT_APP_API_HOST;
 
 
 export default function FileUploader() {

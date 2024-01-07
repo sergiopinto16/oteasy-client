@@ -1,4 +1,3 @@
-import { UserContext } from "../UserContext";
 import './style/SpmRadioAnswer.css';
 import { RadioGroup, RadioButton } from 'react-radio-buttons';
 

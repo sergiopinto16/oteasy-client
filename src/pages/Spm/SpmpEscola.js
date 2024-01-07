@@ -42,7 +42,7 @@ import {UserContext} from "../../UserContext";
 
 import config from '../../config/config.json';
 
-const api_host = config.api.host
+const api_host = process.env.REACT_APP_API_HOST
 const spm_type = 3
 
 

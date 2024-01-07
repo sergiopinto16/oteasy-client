@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "oteasy-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,7 +7,6 @@
     "@emotion/styled": "^11.11.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@material-ui/core": "^4.12.4",
     "@mui/material": "^5.14.11",
     "@mui/styled-engine": "^5.11.11",
     "@mui/styled-engine-sc": "^5.14.11",
@@ -25,7 +24,6 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
-    "react-notify-toast": "^0.5.1",
     "react-pdf": "^6.2.2",
     "react-phone-number-input": "^3.3.6",
     "react-quill": "^2.0.0",
@@ -36,7 +34,7 @@
     "react-search-box": "^3.0.0",
     "react-table": "^7.8.0",
     "react-to-print": "^2.14.12",
-    "reactstrap": "^6.5.0",
+    "reactstrap": "^9.2.0",
     "recharts": "^2.5.0",
     "styled-components": "^5.3.11",
     "web-vitals": "^2.1.0"

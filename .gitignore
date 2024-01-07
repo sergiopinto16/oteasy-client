@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 /uploads
+/build
+/public
 
 # testing
 /coverage
